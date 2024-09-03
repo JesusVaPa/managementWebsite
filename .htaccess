@@ -1,0 +1,5 @@
+
+RewriteEngine On
+RewriteBase /420dw3_07278_integration_project/
+RewriteCond %{REQUEST_URI} !^(.*/public/.*|.*/index.php|/420dw3_07278_integration_project/)$
+RewriteRule ^.*$ /420dw3_07278_integration_project/index.php [L,QSA]
